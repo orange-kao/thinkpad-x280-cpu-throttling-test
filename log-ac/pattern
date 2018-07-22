@@ -1,0 +1,16 @@
+Plug-in the power supply (Lenovo USB-C Dock, which is powered by 20V 90W power adaptor)
+Shutdown Ubuntu 18.04 Desktop
+Boot Ubuntu 18.04 Desktop and wait for one minute
+
+00:00 Start 1st instance of 'benchmark'
+05:00 Start 2nd instance of 'benchmark'
+10:00 Start 3rd instance of 'benchmark'
+15:00 Start 4th instance of 'benchmark'
+20:00
+25:00 Kill 4th instance
+30:00 Kill 3rd instance
+35:00 Kill 2nd instance
+40:00
+45:00 Kill 1st instance. Start 'benchmark-idle' for logging purpose
+50:00
+55:00 Kill 'benchmark-idle'

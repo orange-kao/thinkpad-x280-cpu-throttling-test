@@ -1,0 +1,67 @@
+report_number,number_of_rounds,cpu0 GHz,cpu1 GHz,cpu2 GHz,cpu3 GHz,cpu4 GHz,cpu5 GHz,cpu6 GHz,cpu7 GHz,cpu0 governor,cpu1 governor,cpu2 governor,cpu3 governor,cpu4 governor,cpu5 governor,cpu6 governor,cpu7 governor,fan_speed (x1000),thermal0 (x10),thermal1 (x10),thermal2 (x10),thermal3 (x10),thermal4 (x10),thermal5 (x10),thermal6 (x10)
+1,21,2.805908,2.828026,2.8275300000000003,2.828026,2.828026,2.8840369999999997,2.849424,2.884766,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.867,6.15,2.0,3.5,7.5,6.6,7.5,7.7
+2,20,2.8999810000000004,2.8999989999999998,2.9,2.9,2.9,2.8999650000000003,2.8999859999999997,2.8999360000000003,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.87,6.25,2.0,3.5,7.6,6.8,7.6,7.9
+3,22,2.982246,2.9490790000000002,2.9490790000000002,2.949078,2.948533,2.992583,2.987911,2.972687,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.876,6.3,2.0,3.5,7.9,6.8,7.9,8.2
+4,21,2.969981,2.9424409999999996,2.94244,2.9424409999999996,2.941771,2.982831,2.9829499999999998,2.981182,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.493,6.4,2.0,3.5,8.1,7.0,8.1,8.1
+5,20,2.699907,2.6999989999999996,2.7,2.7,2.699996,2.699928,2.700076,2.700118,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.4,2.0,3.5,7.8,7.0,7.8,7.8
+6,20,2.800022,2.7999989999999997,2.8,2.8,2.8,2.7999609999999997,2.8000439999999998,2.800025,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.024,6.3,2.0,3.6,7.6,7.0,7.6,7.8
+7,21,2.846736,2.895156,2.8960749999999997,2.895156,2.895157,2.810098,2.800501,2.813455,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.876,6.35,2.0,3.5,7.7,7.0,7.7,7.9
+8,21,2.960006,2.943269,2.942733,2.943269,2.943269,2.974015,2.977672,2.979324,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.879,6.4,2.0,3.5,7.9,7.0,7.9,8.1
+9,21,2.9573139999999998,2.930411,2.9297310000000003,2.930411,2.930412,2.973947,2.971601,2.961127,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.479,6.45,2.0,3.5,8.1,7.2,8.1,8.1
+10,21,2.771931,2.74091,2.740726,2.740911,2.740911,2.799339,2.799032,2.792418,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.45,2.0,3.6,8.1,7.2,8.1,7.8
+11,18,2.467176,2.436452,2.436452,2.495198,2.4355700000000002,2.499891,2.499955,2.436452,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.048,6.25,2.0,3.6,7.2,7.2,7.2,7.1
+12,18,2.599989,2.599999,2.6,2.6,2.6,2.600054,2.599977,2.600054,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.076,6.2,2.0,3.6,7.1,6.9,7.1,7.2
+13,20,2.632672,2.6322289999999997,2.631306,2.632228,2.632228,2.6247420000000004,2.6775439999999997,2.639597,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.119,6.15,2.0,3.6,7.2,6.8,7.2,7.3
+14,19,2.699914,2.7,2.7000010000000003,2.700005,2.699998,2.7000129999999998,2.70007,2.6999989999999996,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.119,6.25,2.0,3.6,7.4,6.8,7.4,7.6
+15,20,2.80002,2.7999989999999997,2.8,2.8000540000000003,2.7999989999999997,2.799936,2.800035,2.7999989999999997,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.112,6.3,2.0,3.6,7.6,6.8,7.6,7.8
+16,21,2.899983,2.8999989999999998,2.9,2.899868,2.9,2.900036,2.899927,2.9,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.597,6.4,2.0,3.6,7.8,6.8,7.8,8.0
+17,21,2.877548,2.8791439999999997,2.877549,2.8930059999999997,2.89985,2.8927310000000004,2.8999520000000003,2.877548,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.329,6.45,2.0,3.6,8.0,7.0,8.0,8.1
+18,20,2.766515,2.766514,2.7659070000000003,2.7665129999999998,2.788566,2.794768,2.795714,2.7883620000000002,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.479,6.45,2.0,3.6,7.9,7.1,7.9,7.8
+19,20,2.878276,2.8367310000000003,2.835314,2.83673,2.836732,2.8953919999999997,2.899532,2.899643,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.482,6.4,2.0,3.6,7.8,7.1,7.8,7.8
+20,21,2.899911,2.8999989999999998,2.8999989999999998,2.9,2.9,2.899961,2.900058,2.900094,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.493,6.4,2.0,3.6,7.9,7.1,7.9,8.0
+21,21,2.98848,2.9590799999999997,2.958356,2.9590799999999997,2.9590799999999997,2.9924090000000003,2.992797,2.992976,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.489,6.45,2.0,3.6,8.0,7.2,8.0,8.0
+22,21,2.799996,2.8,2.7999989999999997,2.8,2.7999989999999997,2.799997,2.799957,2.800063,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.45,2.0,3.6,7.9,7.2,7.9,7.9
+23,21,2.8999989999999998,2.9,2.9,2.899998,2.900097,2.8999740000000003,2.89996,2.899928,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.45,2.0,3.6,7.8,7.2,7.8,7.9
+24,21,2.893062,2.91984,2.91984,2.9205799999999997,2.91984,2.8965300000000003,2.881817,2.880276,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.493,6.45,2.0,3.6,7.9,7.2,7.9,8.1
+25,21,2.9,2.9,2.9,2.9,2.9000030000000003,2.900071,2.9,2.900015,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.489,6.5,2.0,3.6,8.1,7.2,8.1,8.0
+26,19,2.699931,2.7,2.6999989999999996,2.7,2.6999989999999996,2.699917,2.700042,2.699989,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.4,2.0,3.6,7.8,7.2,7.8,7.7
+27,20,2.703084,2.7065680000000003,2.7068000000000003,2.7004050000000004,2.7065729999999997,2.7003670000000004,2.700406,2.7065799999999998,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.4,2.0,3.6,7.7,7.2,7.7,7.7
+28,21,2.9001069999999998,2.900001,2.899995,2.900032,2.900001,2.900044,2.899998,2.9,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.482,6.35,2.0,3.6,7.7,7.1,7.7,7.9
+29,21,2.924225,2.942363,2.942047,2.912598,2.942047,2.912461,2.913674,2.942047,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.489,6.4,2.0,3.6,7.8,7.1,7.8,8.0
+30,21,2.92033,2.929973,2.9296770000000003,2.916698,2.9296770000000003,2.9145790000000003,2.915366,2.9296759999999997,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.482,6.45,2.0,3.6,8.0,7.2,8.0,8.1
+31,21,2.79996,2.7999989999999997,2.7999989999999997,2.8,2.8,2.799978,2.8000100000000003,2.799989,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.493,6.45,2.0,3.6,8.1,7.3,8.1,8.0
+32,19,2.500024,2.499999,2.5,2.5,2.5,2.5000340000000003,2.49996,2.500049,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.437,6.4,2.0,3.6,7.5,7.3,7.5,7.3
+33,18,2.599967,2.599999,2.599999,2.6,2.6,2.599922,2.600008,2.600063,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.395,6.25,2.0,3.6,7.2,7.0,7.2,7.3
+34,19,2.635737,2.6374720000000003,2.6021170000000002,2.6293130000000002,2.638422,2.6246840000000002,2.638419,2.638418,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.116,6.25,2.0,3.6,7.2,6.9,7.2,7.3
+35,19,2.6999839999999997,2.7,2.699955,2.699928,2.6999989999999996,2.700054,2.6999989999999996,2.6999989999999996,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.11,6.25,2.0,3.6,7.3,6.9,7.3,7.5
+36,20,2.8,2.7999989999999997,2.799988,2.7999989999999997,2.8000390000000004,2.799996,2.8,2.799997,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.119,6.35,2.0,3.6,7.6,6.9,7.6,7.8
+37,20,2.9,2.9,2.89981,2.9,2.900203,2.900135,2.8999989999999998,2.900156,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.464,6.4,2.0,3.6,7.8,7.0,7.8,8.0
+38,21,2.887877,2.8876880000000003,2.894832,2.887877,2.896433,2.898009,2.887877,2.897948,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.172,6.5,2.0,3.6,8.0,7.0,8.0,8.1
+39,21,2.7720540000000002,2.773287,2.71444,2.7736970000000003,2.70561,2.7001950000000003,2.772062,2.7002089999999996,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.479,6.5,2.0,3.6,7.9,7.1,7.9,7.9
+40,20,2.9,2.899998,2.900059,2.9,2.900023,2.899923,2.9,2.900056,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.45,2.0,3.6,7.8,7.1,7.8,7.9
+41,21,2.8999989999999998,2.899998,2.8999099999999998,2.8999989999999998,2.899994,2.8999740000000003,2.8999989999999998,2.899997,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.486,6.45,2.0,3.6,7.9,7.1,7.9,7.9
+42,21,2.9033510000000002,2.916116,2.916116,2.9161170000000003,2.9169490000000002,2.90416,2.902876,2.902857,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.496,6.45,2.0,3.6,8.0,7.2,8.0,8.1
+43,21,2.897434,2.877934,2.877935,2.897058,2.877933,2.871403,2.876381,2.844191,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.489,6.5,2.0,3.6,8.0,7.2,8.0,8.0
+44,19,2.700024,2.7,2.6999989999999996,2.7,2.7,2.700094,2.6999720000000003,2.699869,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.237,6.4,2.0,3.6,7.6,7.2,7.6,7.7
+45,20,2.873007,2.812392,2.812391,2.810378,2.8123899999999997,2.890984,2.895521,2.897395,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.876,6.45,2.0,3.6,7.7,7.2,7.7,7.8
+46,21,2.8999119999999996,2.8999989999999998,2.8999989999999998,2.8999989999999998,2.9,2.900005,2.9001010000000003,2.900058,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.876,6.45,2.0,3.6,7.8,7.1,7.8,7.9
+47,21,2.902623,2.908317,2.908317,2.908317,2.908422,2.903645,2.90224,2.906042,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.952,6.5,2.0,3.6,8.0,7.2,8.0,8.1
+48,21,2.974738,2.914018,2.914018,2.914018,2.912777,2.988825,2.981353,2.988035,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.468,6.55,2.0,3.7,8.1,7.2,8.1,8.1
+49,20,2.700064,2.6999989999999996,2.7,2.7,2.7,2.6999,2.699935,2.6999560000000002,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.482,6.45,2.0,3.6,7.7,7.2,7.7,7.7
+50,19,2.8,2.8,2.799969,2.8,2.8000100000000003,2.800056,2.8,2.800022,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.859,6.4,2.0,3.6,7.6,7.1,7.6,7.8
+51,20,2.813141,2.8116640000000004,2.8131399999999998,2.813139,2.87252,2.890037,2.89967,2.899543,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.87,6.4,2.0,3.6,7.7,7.1,7.7,7.8
+52,21,2.962902,2.915444,2.916988,2.916986,2.916988,2.940613,2.9328649999999996,2.950339,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.87,6.45,2.0,3.6,7.9,7.1,7.9,8.1
+53,21,2.897097,2.885424,2.896651,2.886294,2.8862910000000004,2.8988,2.8862829999999997,2.898741,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.507,6.5,2.0,3.6,8.1,7.2,8.1,8.0
+54,20,2.600009,2.599999,2.6,2.6,2.6,2.599972,2.600008,2.600037,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.479,6.45,2.0,3.6,7.7,7.2,7.7,7.6
+55,19,2.704103,2.7130680000000003,2.71348,2.71307,2.713067,2.700391,2.700434,2.700421,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.893,6.4,2.0,3.6,7.6,7.1,7.6,7.7
+56,20,2.812119,2.812118,2.810863,2.839281,2.8208029999999997,2.89952,2.8230779999999998,2.812112,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.89,6.4,2.0,3.6,7.7,7.1,7.7,7.9
+57,21,2.8999989999999998,2.8999989999999998,2.9,2.9000239999999997,2.9000079999999997,2.9000459999999997,2.899961,2.9,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,5.89,6.45,2.0,3.6,7.8,7.1,7.8,8.0
+58,21,2.831309,2.831309,2.830647,2.823426,2.8026329999999997,2.8587629999999997,2.829433,2.831305,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.465,6.5,2.0,3.6,8.0,7.2,8.0,8.0
+59,20,2.7999989999999997,2.7999989999999997,2.7999989999999997,2.8000160000000003,2.800012,2.799998,2.799998,2.7999989999999997,powersave,powersave,powersave,powersave,powersave,powersave,powersave,powersave,6.479,6.45,2.0,3.6,7.8,7.2,7.8,7.9
+./benchmark:19:in `digest': Interrupt
+	from ./benchmark:19:in `digest'
+	from ./benchmark:19:in `hexdigest'
+	from ./benchmark:19:in `waste_cpu'
+	from ./benchmark:102:in `block in <main>'
+	from ./benchmark:100:in `each'
+	from ./benchmark:100:in `<main>'

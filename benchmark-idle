@@ -1,0 +1,120 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require "digest"
+require "csv"
+
+$stdout.sync = true
+$stderr.sync = true
+
+GREEN = "\e[37;42;01m"
+NO_COLOUR = "\e[0m"
+STDERR_REPORT_FREQUENCY = 10
+
+data = String.new
+data += "\x00" * (1024 * 1024 * 256)
+ZERO_BLOCK = data
+
+def waste_cpu
+  sleep 1
+end
+
+def read_fan_speed
+  content = File.read("/proc/acpi/ibm/fan")
+  match = /^speed:[ \t]+([0-9]+)$/.match(content)
+  return (match[1].to_i / 1000.0)
+end
+
+def read_temp
+  arr = []
+  Dir.glob("/sys/devices/virtual/thermal/thermal_zone*/temp").each{|filename|
+    content = File.read(filename)
+    arr.push((content.to_i / 10000.0))
+  }
+  return arr
+end
+
+def read_governor
+  arr = []
+  Dir.glob("/sys/devices/system/cpu/cpu*/cpufreq/scaling_governor").each{|filename|
+    content = File.read(filename)
+    arr.push(content.chomp)
+  }
+  return arr
+end
+
+def read_freq
+  content = File.read("/proc/cpuinfo")
+  arr = content.scan(/^cpu MHz[ \t]+:[ \t]+([0-9\.]+)$/)
+  arr.flatten!
+  arr.map!{|item|
+    (item.to_f) / 1000.0
+  }
+  return arr
+end
+
+def gen_stat_header
+  arr = []
+  (0..7).each{|i|
+    arr.push "cpu#{i} GHz"
+  }
+  (0..7).each{|i|
+    arr.push "cpu#{i} governor"
+  }
+  arr += ["fan_speed (x1000)"]
+  (0..6).each{|i|
+    arr.push "thermal#{i} (x10)"
+  }
+  return arr
+end
+
+def gen_stat_content
+  arr = []
+  arr += read_freq()
+  arr += read_governor()
+  arr += [read_fan_speed()]
+  arr += read_temp()
+  return arr
+end
+
+def stderr_print_array(arr)
+  if $stderr.tty? == false
+    $stderr.puts arr.to_csv
+  else
+    $stderr.puts GREEN + arr.to_csv.chomp + NO_COLOUR
+  end
+end
+
+csv_arr = ["time", "round_number", "time_used", "performance_rps"]
+csv_arr += gen_stat_header()
+$stdout.puts csv_arr.to_csv
+
+csv_arr = ["report_number", "number_of_rounds"]
+csv_arr += gen_stat_header()
+stderr_print_array(csv_arr)
+
+start_time = Time.now
+old_report_number = 0
+old_round_number = 0
+
+(1..100000).each{|round_number|
+  time_a = Time.now
+  waste_cpu
+  time_b = Time.now
+  time_used = time_b - time_a
+  round_per_second = 1.0 / time_used
+
+  csv_arr = [time_a.strftime("%FT%T%z"), round_number, time_used, round_per_second]
+  csv_arr += gen_stat_content
+  $stdout.puts csv_arr.to_csv
+
+  report_number = ((time_b - start_time) / STDERR_REPORT_FREQUENCY).to_i
+  if report_number != old_report_number
+    csv_arr = [report_number, round_number - old_round_number]
+    csv_arr += gen_stat_content
+    stderr_print_array(csv_arr)
+    old_report_number = report_number
+    old_round_number = round_number
+  end
+}
+

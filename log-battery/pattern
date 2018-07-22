@@ -1,0 +1,17 @@
+Shutdown Ubuntu 18.04 Desktop
+Unplug the power supply
+Boot Ubuntu 18.04 Desktop and wait for one minute
+
+00:00 Start 'benchmark-idle' for logging purpose
+05:00 Kill 'benchmark-idle'. Start 1st instance of 'benchmark'
+10:00 Start 2nd instance of 'benchmark'
+15:00 Start 3rd instance of 'benchmark'
+20:00 Start 4th instance of 'benchmark'
+25:00
+30:00 Kill 4th instance
+35:00 Kill 3rd instance
+40:00 Kill 2nd instance
+45:00
+50:00 Kill 1st instance. Start 'benchmark-idle' for logging purpose
+55:00
+60:00 Kill 'benchmark-idle'
